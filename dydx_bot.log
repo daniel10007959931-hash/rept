@@ -1,0 +1,29 @@
+2025-09-27 02:12:52,137 - WARNING - Node URL should not contain http(s)://. Stripping the prefix. In the future, consider providing the URL without the http(s) prefix.
+2025-09-27 02:12:52,139 - INFO - DYDX v4 client imported successfully
+2025-09-27 02:12:52,139 - INFO - 🚀 Starting DYDX Trading Bot...
+2025-09-27 02:12:52,139 - INFO - ============================================================
+2025-09-27 02:12:52,140 - INFO - INITIALIZING DYDX TRADING BOT
+2025-09-27 02:12:52,140 - INFO - ============================================================
+2025-09-27 02:12:52,140 - INFO - Bot configured for address: dydx102tnp...245rtrxczv
+2025-09-27 02:12:52,141 - ERROR - Failed to initialize network: NodeConfig.__init__() got an unexpected keyword argument 'grpc_endpoint'
+2025-09-27 02:12:52,141 - WARNING - Trying simplified network configuration...
+2025-09-27 02:12:52,141 - CRITICAL - All network initialization attempts failed: IndexerClient.__init__() got an unexpected keyword argument 'rest_endpoint'
+2025-09-27 02:12:52,142 - CRITICAL - \n❌ Critical error starting bot: IndexerClient.__init__() got an unexpected keyword argument 'rest_endpoint'
+Traceback (most recent call last):
+  File "/home/runner/workspace/working_bot.py", line 82, in _initialize_network
+    node_config = NodeConfig(
+                  ^^^^^^^^^^^
+TypeError: NodeConfig.__init__() got an unexpected keyword argument 'grpc_endpoint'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/working_bot.py", line 419, in main
+    bot = WorkingTradingBot()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/working_bot.py", line 62, in __init__
+    self._initialize_network()
+  File "/home/runner/workspace/working_bot.py", line 108, in _initialize_network
+    self.indexer_client = IndexerClient(
+                          ^^^^^^^^^^^^^^
+TypeError: IndexerClient.__init__() got an unexpected keyword argument 'rest_endpoint'

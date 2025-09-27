@@ -1,0 +1,8 @@
+2025-09-27 02:10:50,238 - WARNING - Node URL should not contain http(s)://. Stripping the prefix. In the future, consider providing the URL without the http(s) prefix.
+2025-09-27 02:10:50,240 - INFO - DYDX v4 client imported successfully
+2025-09-27 02:10:50,240 - INFO - ==================================================
+2025-09-27 02:10:50,241 - INFO - INITIALIZING DYDX TRADING BOT
+2025-09-27 02:10:50,241 - INFO - ==================================================
+2025-09-27 02:10:50,242 - ERROR - Failed to initialize client: type object 'Network' has no attribute 'mainnet'
+2025-09-27 02:10:50,242 - CRITICAL - Failed to initialize any network: type object 'Network' has no attribute 'testnet'
+2025-09-27 02:10:50,243 - CRITICAL - Failed to start bot: type object 'Network' has no attribute 'testnet'

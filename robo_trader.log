@@ -1,0 +1,402 @@
+2025-09-27 02:26:01,512 - INFO - ✅ Módulo DYDX v4 importado com sucesso
+2025-09-27 02:26:01,513 - INFO - 🚀 Inicializando Robô Trader DYDX...
+2025-09-27 02:26:01,513 - INFO - ======================================================================
+2025-09-27 02:26:01,513 - INFO - 📋 Carregando configurações...
+2025-09-27 02:26:01,513 - INFO - 📍 Endereço da wallet: dydx102tnprr...5rtrxczv
+2025-09-27 02:26:01,513 - INFO - ⏱️  Intervalo de análise: 60 segundos
+2025-09-27 02:26:01,514 - INFO - 🔄 Modo de execução: single
+2025-09-27 02:26:01,514 - INFO - 🔗 Conectando à rede DYDX...
+2025-09-27 02:26:01,514 - INFO - ✅ Conexão com DYDX estabelecida com sucesso
+2025-09-27 02:26:01,514 - INFO - ⚙️  Configurando parâmetros de trading...
+2025-09-27 02:26:01,514 - INFO - 📊 Ativos monitorados: BTC, ETH, SOL, AVAX, LINK, DOGE
+2025-09-27 02:26:01,514 - INFO - 🎯 Sinais configurados: 6 sinais ativos
+2025-09-27 02:26:01,514 - INFO - ✅ Robô inicializado com sucesso!
+2025-09-27 02:26:01,514 - INFO - 🎯 Pronto para monitoramento e análise
+2025-09-27 02:26:01,514 - INFO - ======================================================================
+2025-09-27 02:26:01,514 - INFO - 
+🚀 INICIANDO EXECUÇÃO DO ROBÔ TRADER
+2025-09-27 02:26:01,515 - INFO - 🔍 Modo selecionado: ANÁLISE ÚNICA
+2025-09-27 02:26:01,515 - INFO - 
+================================================================================
+2025-09-27 02:26:01,515 - INFO - 🔍 INICIANDO ANÁLISE COMPLETA DE MERCADO
+2025-09-27 02:26:01,515 - INFO - ================================================================================
+2025-09-27 02:26:01,515 - INFO - 
+💰 ANÁLISE DA CONTA
+2025-09-27 02:26:01,515 - INFO - ----------------------------------------
+2025-09-27 02:26:01,521 - INFO - 💵 Saldo disponível: $0.00 USDC
+2025-09-27 02:26:01,521 - INFO - 📊 Posições abertas: 0
+2025-09-27 02:26:01,521 - INFO - 📭 Nenhuma posição aberta encontrada
+2025-09-27 02:26:01,521 - INFO - 
+📈 MONITORAMENTO DE PREÇOS
+2025-09-27 02:26:01,521 - INFO - ----------------------------------------
+2025-09-27 02:26:01,521 - WARNING - ⚠️  BTC: Preço indisponível
+2025-09-27 02:26:01,521 - WARNING - ⚠️  ETH: Preço indisponível
+2025-09-27 02:26:01,522 - WARNING - ⚠️  SOL: Preço indisponível
+2025-09-27 02:26:01,522 - WARNING - ⚠️  AVAX: Preço indisponível
+2025-09-27 02:26:01,522 - WARNING - ⚠️  LINK: Preço indisponível
+2025-09-27 02:26:01,522 - WARNING - ⚠️  DOGE: Preço indisponível
+2025-09-27 02:26:01,522 - INFO - 
+🎯 PROCESSAMENTO DE SINAIS DE TRADING
+2025-09-27 02:26:01,522 - INFO - ----------------------------------------
+2025-09-27 02:26:01,522 - WARNING -   ❌ BTC COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:26:01,522 - WARNING -   ❌ ETH COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:26:01,522 - WARNING -   ❌ SOL COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:26:01,522 - WARNING -   ❌ AVAX COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:26:01,522 - WARNING -   ❌ LINK COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:26:01,523 - WARNING -   ❌ DOGE COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:26:01,523 - INFO - 
+✅ Sinais processados: 0/6 válidos
+2025-09-27 02:26:01,523 - INFO - 
+⚖️  AVALIAÇÃO DE RISCO E EXPOSIÇÃO
+2025-09-27 02:26:01,523 - INFO - ----------------------------------------
+2025-09-27 02:26:01,523 - INFO - 🟢 Sem exposição - Posição em caixa
+2025-09-27 02:26:01,523 - INFO - 
+📋 RESUMO EXECUTIVO
+2025-09-27 02:26:01,523 - INFO - ----------------------------------------
+2025-09-27 02:26:01,523 - INFO -   ⚠️ Saldo baixo - considere depósito
+2025-09-27 02:26:01,523 - INFO -   ℹ️  Sem posições ativas
+2025-09-27 02:26:01,523 - INFO -   ⚠️ 0/6 preços disponíveis
+2025-09-27 02:26:01,523 - INFO - 
+================================================================================
+2025-09-27 02:26:01,523 - INFO - ✅ ANÁLISE COMPLETA FINALIZADA
+2025-09-27 02:26:01,523 - INFO - 🕐 Próxima análise em: 60 segundos
+2025-09-27 02:26:01,523 - INFO - ================================================================================
+2025-09-27 02:26:01,524 - INFO - 
+🎉 Execução do robô finalizada com sucesso!
+2025-09-27 02:26:01,524 - INFO - 
+✅ Robô finalizado com sucesso!
+2025-09-27 02:31:27,365 - INFO - ✅ Módulo DYDX v4 importado com sucesso
+2025-09-27 02:31:27,365 - INFO - 🚀 Inicializando Robô Trader DYDX...
+2025-09-27 02:31:27,366 - INFO - ======================================================================
+2025-09-27 02:31:27,366 - INFO - 📋 Carregando configurações...
+2025-09-27 02:31:27,366 - INFO - 📍 Endereço da wallet: dydx102tnprr...5rtrxczv
+2025-09-27 02:31:27,366 - INFO - ⏱️  Intervalo de análise: 60 segundos
+2025-09-27 02:31:27,366 - INFO - 🔄 Modo de execução: single
+2025-09-27 02:31:27,366 - INFO - 🔗 Conectando à rede DYDX...
+2025-09-27 02:31:27,367 - INFO - ✅ Conexão com DYDX estabelecida com sucesso
+2025-09-27 02:31:27,367 - INFO - ⚙️  Configurando parâmetros de trading...
+2025-09-27 02:31:27,367 - INFO - 📊 Ativos monitorados: BTC, ETH, SOL, AVAX, LINK, DOGE
+2025-09-27 02:31:27,367 - INFO - 🎯 Sinais configurados: 6 sinais ativos
+2025-09-27 02:31:27,367 - INFO - ✅ Robô inicializado com sucesso!
+2025-09-27 02:31:27,367 - INFO - 🎯 Pronto para monitoramento e análise
+2025-09-27 02:31:27,367 - INFO - ======================================================================
+2025-09-27 02:31:27,367 - INFO - 
+🚀 INICIANDO EXECUÇÃO DO ROBÔ TRADER
+2025-09-27 02:31:27,367 - INFO - 🔍 Modo selecionado: ANÁLISE ÚNICA
+2025-09-27 02:31:27,367 - INFO - 
+================================================================================
+2025-09-27 02:31:27,368 - INFO - 🔍 INICIANDO ANÁLISE COMPLETA DE MERCADO
+2025-09-27 02:31:27,368 - INFO - ================================================================================
+2025-09-27 02:31:27,368 - INFO - 
+💰 ANÁLISE DA CONTA
+2025-09-27 02:31:27,368 - INFO - ----------------------------------------
+2025-09-27 02:31:27,372 - INFO - 💵 Saldo disponível: $0.00 USDC
+2025-09-27 02:31:27,372 - INFO - 📊 Posições abertas: 0
+2025-09-27 02:31:27,372 - INFO - 📭 Nenhuma posição aberta encontrada
+2025-09-27 02:31:27,372 - INFO - 
+📈 MONITORAMENTO DE PREÇOS
+2025-09-27 02:31:27,372 - INFO - ----------------------------------------
+2025-09-27 02:31:27,372 - WARNING - ⚠️  BTC: Preço indisponível
+2025-09-27 02:31:27,372 - WARNING - ⚠️  ETH: Preço indisponível
+2025-09-27 02:31:27,372 - WARNING - ⚠️  SOL: Preço indisponível
+2025-09-27 02:31:27,372 - WARNING - ⚠️  AVAX: Preço indisponível
+2025-09-27 02:31:27,373 - WARNING - ⚠️  LINK: Preço indisponível
+2025-09-27 02:31:27,373 - WARNING - ⚠️  DOGE: Preço indisponível
+2025-09-27 02:31:27,373 - INFO - 
+🎯 PROCESSAMENTO DE SINAIS DE TRADING
+2025-09-27 02:31:27,373 - INFO - ----------------------------------------
+2025-09-27 02:31:27,373 - WARNING -   ❌ BTC COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:31:27,373 - WARNING -   ❌ ETH COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:31:27,373 - WARNING -   ❌ SOL COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:31:27,373 - WARNING -   ❌ AVAX COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:31:27,374 - WARNING -   ❌ LINK COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:31:27,374 - WARNING -   ❌ DOGE COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:31:27,374 - INFO - 
+✅ Sinais processados: 0/6 válidos
+2025-09-27 02:31:27,374 - INFO - 
+⚖️  AVALIAÇÃO DE RISCO E EXPOSIÇÃO
+2025-09-27 02:31:27,374 - INFO - ----------------------------------------
+2025-09-27 02:31:27,374 - INFO - 🟢 Sem exposição - Posição em caixa
+2025-09-27 02:31:27,374 - INFO - 
+📋 RESUMO EXECUTIVO
+2025-09-27 02:31:27,374 - INFO - ----------------------------------------
+2025-09-27 02:31:27,374 - INFO -   ⚠️ Saldo baixo - considere depósito
+2025-09-27 02:31:27,375 - INFO -   ℹ️  Sem posições ativas
+2025-09-27 02:31:27,375 - INFO -   ⚠️ 0/6 preços disponíveis
+2025-09-27 02:31:27,375 - INFO - 
+================================================================================
+2025-09-27 02:31:27,375 - INFO - ✅ ANÁLISE COMPLETA FINALIZADA
+2025-09-27 02:31:27,375 - INFO - 🕐 Próxima análise em: 60 segundos
+2025-09-27 02:31:27,375 - INFO - ================================================================================
+2025-09-27 02:31:27,375 - INFO - 
+🎉 Execução do robô finalizada com sucesso!
+2025-09-27 02:31:27,375 - INFO - 
+✅ Robô finalizado com sucesso!
+2025-09-27 02:31:44,122 - INFO - ✅ Módulo DYDX v4 importado com sucesso
+2025-09-27 02:31:44,124 - INFO - 🚀 Inicializando Robô Trader DYDX...
+2025-09-27 02:31:44,124 - INFO - ======================================================================
+2025-09-27 02:31:44,124 - INFO - 📋 Carregando configurações...
+2025-09-27 02:31:44,125 - INFO - 📍 Endereço da wallet: dydx102tnprr...5rtrxczv
+2025-09-27 02:31:44,125 - INFO - ⏱️  Intervalo de análise: 60 segundos
+2025-09-27 02:31:44,125 - INFO - 🔄 Modo de execução: single
+2025-09-27 02:31:44,125 - INFO - 🔗 Conectando à rede DYDX...
+2025-09-27 02:31:44,125 - INFO - ✅ Conexão com DYDX estabelecida com sucesso
+2025-09-27 02:31:44,125 - INFO - ⚙️  Configurando parâmetros de trading...
+2025-09-27 02:31:44,125 - INFO - 📊 Ativos monitorados: BTC, ETH, SOL, AVAX, LINK, DOGE
+2025-09-27 02:31:44,125 - INFO - 🎯 Sinais configurados: 6 sinais ativos
+2025-09-27 02:31:44,125 - INFO - ✅ Robô inicializado com sucesso!
+2025-09-27 02:31:44,125 - INFO - 🎯 Pronto para monitoramento e análise
+2025-09-27 02:31:44,125 - INFO - ======================================================================
+2025-09-27 02:31:44,126 - INFO - 
+🚀 INICIANDO EXECUÇÃO DO ROBÔ TRADER
+2025-09-27 02:31:44,126 - INFO - 🔍 Modo selecionado: ANÁLISE ÚNICA
+2025-09-27 02:31:44,126 - INFO - 
+================================================================================
+2025-09-27 02:31:44,126 - INFO - 🔍 INICIANDO ANÁLISE COMPLETA DE MERCADO
+2025-09-27 02:31:44,126 - INFO - ================================================================================
+2025-09-27 02:31:44,126 - INFO - 
+💰 ANÁLISE DA CONTA
+2025-09-27 02:31:44,126 - INFO - ----------------------------------------
+2025-09-27 02:31:44,129 - INFO - 💵 Saldo disponível: $0.00 USDC
+2025-09-27 02:31:44,129 - INFO - 📊 Posições abertas: 0
+2025-09-27 02:31:44,129 - INFO - 📭 Nenhuma posição aberta encontrada
+2025-09-27 02:31:44,129 - INFO - 
+📈 MONITORAMENTO DE PREÇOS
+2025-09-27 02:31:44,129 - INFO - ----------------------------------------
+2025-09-27 02:31:44,129 - WARNING - ⚠️  BTC: Preço indisponível
+2025-09-27 02:31:44,129 - WARNING - ⚠️  ETH: Preço indisponível
+2025-09-27 02:31:44,129 - WARNING - ⚠️  SOL: Preço indisponível
+2025-09-27 02:31:44,129 - WARNING - ⚠️  AVAX: Preço indisponível
+2025-09-27 02:31:44,130 - WARNING - ⚠️  LINK: Preço indisponível
+2025-09-27 02:31:44,130 - WARNING - ⚠️  DOGE: Preço indisponível
+2025-09-27 02:31:44,130 - INFO - 
+🎯 PROCESSAMENTO DE SINAIS DE TRADING
+2025-09-27 02:31:44,130 - INFO - ----------------------------------------
+2025-09-27 02:31:44,130 - WARNING -   ❌ BTC COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:31:44,130 - WARNING -   ❌ ETH COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:31:44,130 - WARNING -   ❌ SOL COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:31:44,130 - WARNING -   ❌ AVAX COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:31:44,130 - WARNING -   ❌ LINK COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:31:44,130 - WARNING -   ❌ DOGE COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:31:44,130 - INFO - 
+✅ Sinais processados: 0/6 válidos
+2025-09-27 02:31:44,130 - INFO - 
+⚖️  AVALIAÇÃO DE RISCO E EXPOSIÇÃO
+2025-09-27 02:31:44,130 - INFO - ----------------------------------------
+2025-09-27 02:31:44,131 - INFO - 🟢 Sem exposição - Posição em caixa
+2025-09-27 02:31:44,131 - INFO - 
+📋 RESUMO EXECUTIVO
+2025-09-27 02:31:44,131 - INFO - ----------------------------------------
+2025-09-27 02:31:44,131 - INFO -   ⚠️ Saldo baixo - considere depósito
+2025-09-27 02:31:44,131 - INFO -   ℹ️  Sem posições ativas
+2025-09-27 02:31:44,131 - INFO -   ⚠️ 0/6 preços disponíveis
+2025-09-27 02:31:44,131 - INFO - 
+================================================================================
+2025-09-27 02:31:44,131 - INFO - ✅ ANÁLISE COMPLETA FINALIZADA
+2025-09-27 02:31:44,131 - INFO - 🕐 Próxima análise em: 60 segundos
+2025-09-27 02:31:44,131 - INFO - ================================================================================
+2025-09-27 02:31:44,131 - INFO - 
+🎉 Execução do robô finalizada com sucesso!
+2025-09-27 02:31:44,132 - INFO - 
+✅ Robô finalizado com sucesso!
+2025-09-27 02:32:08,350 - INFO - ✅ Módulo DYDX v4 importado com sucesso
+2025-09-27 02:32:08,351 - INFO - 🚀 Inicializando Robô Trader DYDX...
+2025-09-27 02:32:08,351 - INFO - ======================================================================
+2025-09-27 02:32:08,351 - INFO - 📋 Carregando configurações...
+2025-09-27 02:32:08,351 - INFO - 📍 Endereço da wallet: dydx102tnprr...5rtrxczv
+2025-09-27 02:32:08,351 - INFO - ⏱️  Intervalo de análise: 60 segundos
+2025-09-27 02:32:08,351 - INFO - 🔄 Modo de execução: single
+2025-09-27 02:32:08,351 - INFO - 🔗 Conectando à rede DYDX...
+2025-09-27 02:32:08,351 - INFO - ✅ Conexão com DYDX estabelecida com sucesso
+2025-09-27 02:32:08,352 - INFO - ⚙️  Configurando parâmetros de trading...
+2025-09-27 02:32:08,352 - INFO - 📊 Ativos monitorados: BTC, ETH, SOL, AVAX, LINK, DOGE
+2025-09-27 02:32:08,352 - INFO - 🎯 Sinais configurados: 6 sinais ativos
+2025-09-27 02:32:08,352 - INFO - ✅ Robô inicializado com sucesso!
+2025-09-27 02:32:08,352 - INFO - 🎯 Pronto para monitoramento e análise
+2025-09-27 02:32:08,352 - INFO - ======================================================================
+2025-09-27 02:32:08,352 - INFO - 
+🚀 INICIANDO EXECUÇÃO DO ROBÔ TRADER
+2025-09-27 02:32:08,352 - INFO - 🔍 Modo selecionado: ANÁLISE ÚNICA
+2025-09-27 02:32:08,352 - INFO - 
+================================================================================
+2025-09-27 02:32:08,352 - INFO - 🔍 INICIANDO ANÁLISE COMPLETA DE MERCADO
+2025-09-27 02:32:08,353 - INFO - ================================================================================
+2025-09-27 02:32:08,353 - INFO - 
+💰 ANÁLISE DA CONTA
+2025-09-27 02:32:08,353 - INFO - ----------------------------------------
+2025-09-27 02:32:08,356 - INFO - 💵 Saldo disponível: $0.00 USDC
+2025-09-27 02:32:08,356 - INFO - 📊 Posições abertas: 0
+2025-09-27 02:32:08,356 - INFO - 📭 Nenhuma posição aberta encontrada
+2025-09-27 02:32:08,356 - INFO - 
+📈 MONITORAMENTO DE PREÇOS
+2025-09-27 02:32:08,356 - INFO - ----------------------------------------
+2025-09-27 02:32:08,356 - WARNING - ⚠️  BTC: Preço indisponível
+2025-09-27 02:32:08,357 - WARNING - ⚠️  ETH: Preço indisponível
+2025-09-27 02:32:08,357 - WARNING - ⚠️  SOL: Preço indisponível
+2025-09-27 02:32:08,357 - WARNING - ⚠️  AVAX: Preço indisponível
+2025-09-27 02:32:08,357 - WARNING - ⚠️  LINK: Preço indisponível
+2025-09-27 02:32:08,357 - WARNING - ⚠️  DOGE: Preço indisponível
+2025-09-27 02:32:08,357 - INFO - 
+🎯 PROCESSAMENTO DE SINAIS DE TRADING
+2025-09-27 02:32:08,357 - INFO - ----------------------------------------
+2025-09-27 02:32:08,357 - WARNING -   ❌ BTC COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:32:08,358 - WARNING -   ❌ ETH COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:32:08,358 - WARNING -   ❌ SOL COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:32:08,358 - WARNING -   ❌ AVAX COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:32:08,358 - WARNING -   ❌ LINK COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:32:08,358 - WARNING -   ❌ DOGE COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:32:08,358 - INFO - 
+✅ Sinais processados: 0/6 válidos
+2025-09-27 02:32:08,358 - INFO - 
+⚖️  AVALIAÇÃO DE RISCO E EXPOSIÇÃO
+2025-09-27 02:32:08,358 - INFO - ----------------------------------------
+2025-09-27 02:32:08,359 - INFO - 🟢 Sem exposição - Posição em caixa
+2025-09-27 02:32:08,359 - INFO - 
+📋 RESUMO EXECUTIVO
+2025-09-27 02:32:08,359 - INFO - ----------------------------------------
+2025-09-27 02:32:08,359 - INFO -   ⚠️ Saldo baixo - considere depósito
+2025-09-27 02:32:08,359 - INFO -   ℹ️  Sem posições ativas
+2025-09-27 02:32:08,359 - INFO -   ⚠️ 0/6 preços disponíveis
+2025-09-27 02:32:08,359 - INFO - 
+================================================================================
+2025-09-27 02:32:08,359 - INFO - ✅ ANÁLISE COMPLETA FINALIZADA
+2025-09-27 02:32:08,359 - INFO - 🕐 Próxima análise em: 60 segundos
+2025-09-27 02:32:08,359 - INFO - ================================================================================
+2025-09-27 02:32:08,360 - INFO - 
+🎉 Execução do robô finalizada com sucesso!
+2025-09-27 02:32:08,360 - INFO - 
+✅ Robô finalizado com sucesso!
+2025-09-27 02:32:23,548 - INFO - ✅ Módulo DYDX v4 importado com sucesso
+2025-09-27 02:32:23,548 - INFO - 🚀 Inicializando Robô Trader DYDX...
+2025-09-27 02:32:23,549 - INFO - ======================================================================
+2025-09-27 02:32:23,549 - INFO - 📋 Carregando configurações...
+2025-09-27 02:32:23,549 - INFO - 📍 Endereço da wallet: dydx102tnprr...5rtrxczv
+2025-09-27 02:32:23,549 - INFO - ⏱️  Intervalo de análise: 60 segundos
+2025-09-27 02:32:23,549 - INFO - 🔄 Modo de execução: single
+2025-09-27 02:32:23,549 - INFO - 🔗 Conectando à rede DYDX...
+2025-09-27 02:32:23,549 - INFO - ✅ Conexão com DYDX estabelecida com sucesso
+2025-09-27 02:32:23,550 - INFO - ⚙️  Configurando parâmetros de trading...
+2025-09-27 02:32:23,550 - INFO - 📊 Ativos monitorados: BTC, ETH, SOL, AVAX, LINK, DOGE
+2025-09-27 02:32:23,550 - INFO - 🎯 Sinais configurados: 6 sinais ativos
+2025-09-27 02:32:23,550 - INFO - ✅ Robô inicializado com sucesso!
+2025-09-27 02:32:23,550 - INFO - 🎯 Pronto para monitoramento e análise
+2025-09-27 02:32:23,550 - INFO - ======================================================================
+2025-09-27 02:32:23,550 - INFO - 
+🚀 INICIANDO EXECUÇÃO DO ROBÔ TRADER
+2025-09-27 02:32:23,550 - INFO - 🔍 Modo selecionado: ANÁLISE ÚNICA
+2025-09-27 02:32:23,550 - INFO - 
+================================================================================
+2025-09-27 02:32:23,551 - INFO - 🔍 INICIANDO ANÁLISE COMPLETA DE MERCADO
+2025-09-27 02:32:23,551 - INFO - ================================================================================
+2025-09-27 02:32:23,551 - INFO - 
+💰 ANÁLISE DA CONTA
+2025-09-27 02:32:23,551 - INFO - ----------------------------------------
+2025-09-27 02:32:23,554 - INFO - 💵 Saldo disponível: $0.00 USDC
+2025-09-27 02:32:23,555 - INFO - 📊 Posições abertas: 0
+2025-09-27 02:32:23,555 - INFO - 📭 Nenhuma posição aberta encontrada
+2025-09-27 02:32:23,555 - INFO - 
+📈 MONITORAMENTO DE PREÇOS
+2025-09-27 02:32:23,555 - INFO - ----------------------------------------
+2025-09-27 02:32:23,555 - WARNING - ⚠️  BTC: Preço indisponível
+2025-09-27 02:32:23,555 - WARNING - ⚠️  ETH: Preço indisponível
+2025-09-27 02:32:23,555 - WARNING - ⚠️  SOL: Preço indisponível
+2025-09-27 02:32:23,555 - WARNING - ⚠️  AVAX: Preço indisponível
+2025-09-27 02:32:23,555 - WARNING - ⚠️  LINK: Preço indisponível
+2025-09-27 02:32:23,555 - WARNING - ⚠️  DOGE: Preço indisponível
+2025-09-27 02:32:23,556 - INFO - 
+🎯 PROCESSAMENTO DE SINAIS DE TRADING
+2025-09-27 02:32:23,556 - INFO - ----------------------------------------
+2025-09-27 02:32:23,556 - WARNING -   ❌ BTC COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:32:23,556 - WARNING -   ❌ ETH COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:32:23,556 - WARNING -   ❌ SOL COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:32:23,556 - WARNING -   ❌ AVAX COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:32:23,556 - WARNING -   ❌ LINK COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:32:23,556 - WARNING -   ❌ DOGE COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:32:23,557 - INFO - 
+✅ Sinais processados: 0/6 válidos
+2025-09-27 02:32:23,557 - INFO - 
+⚖️  AVALIAÇÃO DE RISCO E EXPOSIÇÃO
+2025-09-27 02:32:23,557 - INFO - ----------------------------------------
+2025-09-27 02:32:23,557 - INFO - 🟢 Sem exposição - Posição em caixa
+2025-09-27 02:32:23,557 - INFO - 
+📋 RESUMO EXECUTIVO
+2025-09-27 02:32:23,557 - INFO - ----------------------------------------
+2025-09-27 02:32:23,557 - INFO -   ⚠️ Saldo baixo - considere depósito
+2025-09-27 02:32:23,557 - INFO -   ℹ️  Sem posições ativas
+2025-09-27 02:32:23,557 - INFO -   ⚠️ 0/6 preços disponíveis
+2025-09-27 02:32:23,557 - INFO - 
+================================================================================
+2025-09-27 02:32:23,557 - INFO - ✅ ANÁLISE COMPLETA FINALIZADA
+2025-09-27 02:32:23,557 - INFO - 🕐 Próxima análise em: 60 segundos
+2025-09-27 02:32:23,558 - INFO - ================================================================================
+2025-09-27 02:32:23,558 - INFO - 
+🎉 Execução do robô finalizada com sucesso!
+2025-09-27 02:32:23,558 - INFO - 
+✅ Robô finalizado com sucesso!
+2025-09-27 02:32:24,794 - INFO - ✅ Módulo DYDX v4 importado com sucesso
+2025-09-27 02:32:24,794 - INFO - 🚀 Inicializando Robô Trader DYDX...
+2025-09-27 02:32:24,795 - INFO - ======================================================================
+2025-09-27 02:32:24,795 - INFO - 📋 Carregando configurações...
+2025-09-27 02:32:24,795 - INFO - 📍 Endereço da wallet: dydx102tnprr...5rtrxczv
+2025-09-27 02:32:24,795 - INFO - ⏱️  Intervalo de análise: 60 segundos
+2025-09-27 02:32:24,795 - INFO - 🔄 Modo de execução: single
+2025-09-27 02:32:24,795 - INFO - 🔗 Conectando à rede DYDX...
+2025-09-27 02:32:24,796 - INFO - ✅ Conexão com DYDX estabelecida com sucesso
+2025-09-27 02:32:24,796 - INFO - ⚙️  Configurando parâmetros de trading...
+2025-09-27 02:32:24,796 - INFO - 📊 Ativos monitorados: BTC, ETH, SOL, AVAX, LINK, DOGE
+2025-09-27 02:32:24,796 - INFO - 🎯 Sinais configurados: 6 sinais ativos
+2025-09-27 02:32:24,796 - INFO - ✅ Robô inicializado com sucesso!
+2025-09-27 02:32:24,796 - INFO - 🎯 Pronto para monitoramento e análise
+2025-09-27 02:32:24,796 - INFO - ======================================================================
+2025-09-27 02:32:24,796 - INFO - 
+🚀 INICIANDO EXECUÇÃO DO ROBÔ TRADER
+2025-09-27 02:32:24,797 - INFO - 🔍 Modo selecionado: ANÁLISE ÚNICA
+2025-09-27 02:32:24,797 - INFO - 
+================================================================================
+2025-09-27 02:32:24,797 - INFO - 🔍 INICIANDO ANÁLISE COMPLETA DE MERCADO
+2025-09-27 02:32:24,797 - INFO - ================================================================================
+2025-09-27 02:32:24,797 - INFO - 
+💰 ANÁLISE DA CONTA
+2025-09-27 02:32:24,797 - INFO - ----------------------------------------
+2025-09-27 02:32:24,800 - INFO - 💵 Saldo disponível: $0.00 USDC
+2025-09-27 02:32:24,800 - INFO - 📊 Posições abertas: 0
+2025-09-27 02:32:24,801 - INFO - 📭 Nenhuma posição aberta encontrada
+2025-09-27 02:32:24,801 - INFO - 
+📈 MONITORAMENTO DE PREÇOS
+2025-09-27 02:32:24,801 - INFO - ----------------------------------------
+2025-09-27 02:32:24,801 - WARNING - ⚠️  BTC: Preço indisponível
+2025-09-27 02:32:24,801 - WARNING - ⚠️  ETH: Preço indisponível
+2025-09-27 02:32:24,802 - WARNING - ⚠️  SOL: Preço indisponível
+2025-09-27 02:32:24,802 - WARNING - ⚠️  AVAX: Preço indisponível
+2025-09-27 02:32:24,802 - WARNING - ⚠️  LINK: Preço indisponível
+2025-09-27 02:32:24,802 - WARNING - ⚠️  DOGE: Preço indisponível
+2025-09-27 02:32:24,802 - INFO - 
+🎯 PROCESSAMENTO DE SINAIS DE TRADING
+2025-09-27 02:32:24,802 - INFO - ----------------------------------------
+2025-09-27 02:32:24,802 - WARNING -   ❌ BTC COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:32:24,803 - WARNING -   ❌ ETH COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:32:24,803 - WARNING -   ❌ SOL COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:32:24,803 - WARNING -   ❌ AVAX COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:32:24,803 - WARNING -   ❌ LINK COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:32:24,803 - WARNING -   ❌ DOGE COMPRAR → Impossível executar (sem dados de preço)
+2025-09-27 02:32:24,803 - INFO - 
+✅ Sinais processados: 0/6 válidos
+2025-09-27 02:32:24,803 - INFO - 
+⚖️  AVALIAÇÃO DE RISCO E EXPOSIÇÃO
+2025-09-27 02:32:24,803 - INFO - ----------------------------------------
+2025-09-27 02:32:24,803 - INFO - 🟢 Sem exposição - Posição em caixa
+2025-09-27 02:32:24,803 - INFO - 
+📋 RESUMO EXECUTIVO
+2025-09-27 02:32:24,804 - INFO - ----------------------------------------
+2025-09-27 02:32:24,804 - INFO -   ⚠️ Saldo baixo - considere depósito
+2025-09-27 02:32:24,804 - INFO -   ℹ️  Sem posições ativas
+2025-09-27 02:32:24,804 - INFO -   ⚠️ 0/6 preços disponíveis
+2025-09-27 02:32:24,804 - INFO - 
+================================================================================
+2025-09-27 02:32:24,804 - INFO - ✅ ANÁLISE COMPLETA FINALIZADA
+2025-09-27 02:32:24,804 - INFO - 🕐 Próxima análise em: 60 segundos
+2025-09-27 02:32:24,804 - INFO - ================================================================================
+2025-09-27 02:32:24,804 - INFO - 
+🎉 Execução do robô finalizada com sucesso!
+2025-09-27 02:32:24,805 - INFO - 
+✅ Robô finalizado com sucesso!

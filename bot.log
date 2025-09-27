@@ -1,0 +1,340 @@
+2025-09-27 02:13:42,112 - INFO - ✅ DYDX v4 client imported successfully
+2025-09-27 02:13:42,113 - INFO - 🚀 Initializing DYDX Trading Bot...
+2025-09-27 02:13:42,113 - INFO - 📍 Bot address: dydx102tnprr...5rtrxczv
+2025-09-27 02:13:42,113 - INFO - ✅ DYDX client initialized successfully
+2025-09-27 02:13:42,114 - INFO - 📊 Monitoring: BTC, ETH, SOL, AVAX, LINK
+2025-09-27 02:13:42,115 - INFO - 🎯 Bot initialization completed!
+2025-09-27 02:13:42,115 - INFO - \n============================================================
+2025-09-27 02:13:42,117 - INFO - 🔍 STARTING MARKET ANALYSIS
+2025-09-27 02:13:42,118 - INFO - ============================================================
+2025-09-27 02:13:42,119 - INFO - \n💰 ACCOUNT STATUS
+2025-09-27 02:13:42,119 - INFO - ------------------------------
+2025-09-27 02:13:42,126 - INFO - 💵 Balance: $0.00 USDC
+2025-09-27 02:13:42,126 - INFO - 📊 Open Positions: 0
+2025-09-27 02:13:42,127 - INFO - \n📈 MARKET PRICES
+2025-09-27 02:13:42,128 - INFO - ------------------------------
+2025-09-27 02:13:42,128 - WARNING - ⚠️  BTC: Price unavailable
+2025-09-27 02:13:42,130 - WARNING - ⚠️  ETH: Price unavailable
+2025-09-27 02:13:42,130 - WARNING - ⚠️  SOL: Price unavailable
+2025-09-27 02:13:42,131 - WARNING - ⚠️  AVAX: Price unavailable
+2025-09-27 02:13:42,131 - WARNING - ⚠️  LINK: Price unavailable
+2025-09-27 02:13:42,131 - INFO - \n🎯 TRADING SIGNALS
+2025-09-27 02:13:42,134 - INFO - ------------------------------
+2025-09-27 02:13:42,134 - WARNING -   ❌ BTC COMPRAR → Cannot execute (no price data)
+2025-09-27 02:13:42,134 - WARNING -   ❌ ETH COMPRAR → Cannot execute (no price data)
+2025-09-27 02:13:42,134 - WARNING -   ❌ SOL COMPRAR → Cannot execute (no price data)
+2025-09-27 02:13:42,135 - WARNING -   ❌ AVAX COMPRAR → Cannot execute (no price data)
+2025-09-27 02:13:42,135 - WARNING -   ❌ LINK COMPRAR → Cannot execute (no price data)
+2025-09-27 02:13:42,135 - INFO - \n⚖️  RISK SUMMARY
+2025-09-27 02:13:42,135 - INFO - ------------------------------
+2025-09-27 02:13:42,136 - INFO - 🟢 No exposure - Cash position
+2025-09-27 02:13:42,136 - INFO - \n============================================================
+2025-09-27 02:13:42,136 - INFO - ✅ ANALYSIS COMPLETED
+2025-09-27 02:13:42,136 - INFO - ============================================================
+2025-09-27 02:13:42,137 - INFO - \n🎉 Bot execution completed successfully!
+2025-09-27 02:14:01,032 - INFO - ✅ DYDX v4 client imported successfully
+2025-09-27 02:14:01,033 - INFO - 🚀 Initializing DYDX Trading Bot...
+2025-09-27 02:14:01,033 - INFO - 📍 Bot address: dydx102tnprr...5rtrxczv
+2025-09-27 02:14:01,033 - INFO - ✅ DYDX client initialized successfully
+2025-09-27 02:14:01,034 - INFO - 📊 Monitoring: BTC, ETH, SOL, AVAX, LINK
+2025-09-27 02:14:01,034 - INFO - 🎯 Bot initialization completed!
+2025-09-27 02:14:01,034 - INFO - \n============================================================
+2025-09-27 02:14:01,034 - INFO - 🔍 STARTING MARKET ANALYSIS
+2025-09-27 02:14:01,034 - INFO - ============================================================
+2025-09-27 02:14:01,034 - INFO - \n💰 ACCOUNT STATUS
+2025-09-27 02:14:01,034 - INFO - ------------------------------
+2025-09-27 02:14:01,038 - INFO - 💵 Balance: $0.00 USDC
+2025-09-27 02:14:01,038 - INFO - 📊 Open Positions: 0
+2025-09-27 02:14:01,038 - INFO - \n📈 MARKET PRICES
+2025-09-27 02:14:01,038 - INFO - ------------------------------
+2025-09-27 02:14:01,038 - WARNING - ⚠️  BTC: Price unavailable
+2025-09-27 02:14:01,038 - WARNING - ⚠️  ETH: Price unavailable
+2025-09-27 02:14:01,038 - WARNING - ⚠️  SOL: Price unavailable
+2025-09-27 02:14:01,038 - WARNING - ⚠️  AVAX: Price unavailable
+2025-09-27 02:14:01,038 - WARNING - ⚠️  LINK: Price unavailable
+2025-09-27 02:14:01,038 - INFO - \n🎯 TRADING SIGNALS
+2025-09-27 02:14:01,039 - INFO - ------------------------------
+2025-09-27 02:14:01,039 - WARNING -   ❌ BTC COMPRAR → Cannot execute (no price data)
+2025-09-27 02:14:01,039 - WARNING -   ❌ ETH COMPRAR → Cannot execute (no price data)
+2025-09-27 02:14:01,039 - WARNING -   ❌ SOL COMPRAR → Cannot execute (no price data)
+2025-09-27 02:14:01,039 - WARNING -   ❌ AVAX COMPRAR → Cannot execute (no price data)
+2025-09-27 02:14:01,039 - WARNING -   ❌ LINK COMPRAR → Cannot execute (no price data)
+2025-09-27 02:14:01,039 - INFO - \n⚖️  RISK SUMMARY
+2025-09-27 02:14:01,039 - INFO - ------------------------------
+2025-09-27 02:14:01,039 - INFO - 🟢 No exposure - Cash position
+2025-09-27 02:14:01,040 - INFO - \n============================================================
+2025-09-27 02:14:01,040 - INFO - ✅ ANALYSIS COMPLETED
+2025-09-27 02:14:01,040 - INFO - ============================================================
+2025-09-27 02:14:01,040 - INFO - \n🎉 Bot execution completed successfully!
+2025-09-27 02:18:00,953 - INFO - ✅ DYDX v4 client imported successfully
+2025-09-27 02:18:00,955 - INFO - 🚀 Initializing DYDX Trading Bot...
+2025-09-27 02:18:00,955 - INFO - 📍 Bot address: dydx102tnprr...5rtrxczv
+2025-09-27 02:18:00,955 - INFO - ✅ DYDX client initialized successfully
+2025-09-27 02:18:00,956 - INFO - 📊 Monitoring: BTC, ETH, SOL, AVAX, LINK
+2025-09-27 02:18:00,956 - INFO - 🎯 Bot initialization completed!
+2025-09-27 02:18:00,956 - INFO - \n============================================================
+2025-09-27 02:18:00,956 - INFO - 🔍 STARTING MARKET ANALYSIS
+2025-09-27 02:18:00,956 - INFO - ============================================================
+2025-09-27 02:18:00,956 - INFO - \n💰 ACCOUNT STATUS
+2025-09-27 02:18:00,956 - INFO - ------------------------------
+2025-09-27 02:18:00,962 - INFO - 💵 Balance: $0.00 USDC
+2025-09-27 02:18:00,962 - INFO - 📊 Open Positions: 0
+2025-09-27 02:18:00,962 - INFO - \n📈 MARKET PRICES
+2025-09-27 02:18:00,962 - INFO - ------------------------------
+2025-09-27 02:18:00,962 - WARNING - ⚠️  BTC: Price unavailable
+2025-09-27 02:18:00,962 - WARNING - ⚠️  ETH: Price unavailable
+2025-09-27 02:18:00,963 - WARNING - ⚠️  SOL: Price unavailable
+2025-09-27 02:18:00,963 - WARNING - ⚠️  AVAX: Price unavailable
+2025-09-27 02:18:00,963 - WARNING - ⚠️  LINK: Price unavailable
+2025-09-27 02:18:00,963 - INFO - \n🎯 TRADING SIGNALS
+2025-09-27 02:18:00,963 - INFO - ------------------------------
+2025-09-27 02:18:00,963 - WARNING -   ❌ BTC COMPRAR → Cannot execute (no price data)
+2025-09-27 02:18:00,963 - WARNING -   ❌ ETH COMPRAR → Cannot execute (no price data)
+2025-09-27 02:18:00,963 - WARNING -   ❌ SOL COMPRAR → Cannot execute (no price data)
+2025-09-27 02:18:00,963 - WARNING -   ❌ AVAX COMPRAR → Cannot execute (no price data)
+2025-09-27 02:18:00,964 - WARNING -   ❌ LINK COMPRAR → Cannot execute (no price data)
+2025-09-27 02:18:00,964 - INFO - \n⚖️  RISK SUMMARY
+2025-09-27 02:18:00,964 - INFO - ------------------------------
+2025-09-27 02:18:00,965 - INFO - 🟢 No exposure - Cash position
+2025-09-27 02:18:00,965 - INFO - \n============================================================
+2025-09-27 02:18:00,967 - INFO - ✅ ANALYSIS COMPLETED
+2025-09-27 02:18:00,967 - INFO - ============================================================
+2025-09-27 02:18:00,967 - INFO - \n🎉 Bot execution completed successfully!
+2025-09-27 02:18:03,213 - INFO - ✅ DYDX v4 client imported successfully
+2025-09-27 02:18:03,214 - INFO - 🚀 Initializing DYDX Trading Bot...
+2025-09-27 02:18:03,214 - INFO - 📍 Bot address: dydx102tnprr...5rtrxczv
+2025-09-27 02:18:03,214 - INFO - ✅ DYDX client initialized successfully
+2025-09-27 02:18:03,214 - INFO - 📊 Monitoring: BTC, ETH, SOL, AVAX, LINK
+2025-09-27 02:18:03,214 - INFO - 🎯 Bot initialization completed!
+2025-09-27 02:18:03,214 - INFO - \n============================================================
+2025-09-27 02:18:03,214 - INFO - 🔍 STARTING MARKET ANALYSIS
+2025-09-27 02:18:03,214 - INFO - ============================================================
+2025-09-27 02:18:03,215 - INFO - \n💰 ACCOUNT STATUS
+2025-09-27 02:18:03,215 - INFO - ------------------------------
+2025-09-27 02:18:03,219 - INFO - 💵 Balance: $0.00 USDC
+2025-09-27 02:18:03,219 - INFO - 📊 Open Positions: 0
+2025-09-27 02:18:03,219 - INFO - \n📈 MARKET PRICES
+2025-09-27 02:18:03,219 - INFO - ------------------------------
+2025-09-27 02:18:03,219 - WARNING - ⚠️  BTC: Price unavailable
+2025-09-27 02:18:03,219 - WARNING - ⚠️  ETH: Price unavailable
+2025-09-27 02:18:03,219 - WARNING - ⚠️  SOL: Price unavailable
+2025-09-27 02:18:03,220 - WARNING - ⚠️  AVAX: Price unavailable
+2025-09-27 02:18:03,220 - WARNING - ⚠️  LINK: Price unavailable
+2025-09-27 02:18:03,220 - INFO - \n🎯 TRADING SIGNALS
+2025-09-27 02:18:03,220 - INFO - ------------------------------
+2025-09-27 02:18:03,220 - WARNING -   ❌ BTC COMPRAR → Cannot execute (no price data)
+2025-09-27 02:18:03,220 - WARNING -   ❌ ETH COMPRAR → Cannot execute (no price data)
+2025-09-27 02:18:03,220 - WARNING -   ❌ SOL COMPRAR → Cannot execute (no price data)
+2025-09-27 02:18:03,220 - WARNING -   ❌ AVAX COMPRAR → Cannot execute (no price data)
+2025-09-27 02:18:03,221 - WARNING -   ❌ LINK COMPRAR → Cannot execute (no price data)
+2025-09-27 02:18:03,221 - INFO - \n⚖️  RISK SUMMARY
+2025-09-27 02:18:03,221 - INFO - ------------------------------
+2025-09-27 02:18:03,221 - INFO - 🟢 No exposure - Cash position
+2025-09-27 02:18:03,221 - INFO - \n============================================================
+2025-09-27 02:18:03,221 - INFO - ✅ ANALYSIS COMPLETED
+2025-09-27 02:18:03,221 - INFO - ============================================================
+2025-09-27 02:18:03,221 - INFO - \n🎉 Bot execution completed successfully!
+2025-09-27 02:20:04,036 - INFO - ✅ DYDX v4 client imported successfully
+2025-09-27 02:20:04,037 - INFO - 🚀 Initializing DYDX Trading Bot...
+2025-09-27 02:20:04,037 - INFO - 📍 Bot address: dydx102tnprr...5rtrxczv
+2025-09-27 02:20:04,037 - INFO - ✅ DYDX client initialized successfully
+2025-09-27 02:20:04,037 - INFO - 📊 Monitoring: BTC, ETH, SOL, AVAX, LINK
+2025-09-27 02:20:04,037 - INFO - 🎯 Bot initialization completed!
+2025-09-27 02:20:04,037 - INFO - \n============================================================
+2025-09-27 02:20:04,037 - INFO - 🔍 STARTING MARKET ANALYSIS
+2025-09-27 02:20:04,037 - INFO - ============================================================
+2025-09-27 02:20:04,038 - INFO - \n💰 ACCOUNT STATUS
+2025-09-27 02:20:04,038 - INFO - ------------------------------
+2025-09-27 02:20:04,041 - INFO - 💵 Balance: $0.00 USDC
+2025-09-27 02:20:04,041 - INFO - 📊 Open Positions: 0
+2025-09-27 02:20:04,041 - INFO - \n📈 MARKET PRICES
+2025-09-27 02:20:04,042 - INFO - ------------------------------
+2025-09-27 02:20:04,042 - WARNING - ⚠️  BTC: Price unavailable
+2025-09-27 02:20:04,042 - WARNING - ⚠️  ETH: Price unavailable
+2025-09-27 02:20:04,042 - WARNING - ⚠️  SOL: Price unavailable
+2025-09-27 02:20:04,042 - WARNING - ⚠️  AVAX: Price unavailable
+2025-09-27 02:20:04,042 - WARNING - ⚠️  LINK: Price unavailable
+2025-09-27 02:20:04,043 - INFO - \n🎯 TRADING SIGNALS
+2025-09-27 02:20:04,043 - INFO - ------------------------------
+2025-09-27 02:20:04,043 - WARNING -   ❌ BTC COMPRAR → Cannot execute (no price data)
+2025-09-27 02:20:04,043 - WARNING -   ❌ ETH COMPRAR → Cannot execute (no price data)
+2025-09-27 02:20:04,043 - WARNING -   ❌ SOL COMPRAR → Cannot execute (no price data)
+2025-09-27 02:20:04,043 - WARNING -   ❌ AVAX COMPRAR → Cannot execute (no price data)
+2025-09-27 02:20:04,043 - WARNING -   ❌ LINK COMPRAR → Cannot execute (no price data)
+2025-09-27 02:20:04,043 - INFO - \n⚖️  RISK SUMMARY
+2025-09-27 02:20:04,043 - INFO - ------------------------------
+2025-09-27 02:20:04,043 - INFO - 🟢 No exposure - Cash position
+2025-09-27 02:20:04,044 - INFO - \n============================================================
+2025-09-27 02:20:04,044 - INFO - ✅ ANALYSIS COMPLETED
+2025-09-27 02:20:04,044 - INFO - ============================================================
+2025-09-27 02:20:04,044 - INFO - \n🎉 Bot execution completed successfully!
+2025-09-27 02:22:16,291 - INFO - ✅ DYDX v4 client imported successfully
+2025-09-27 02:22:16,291 - INFO - 🚀 Initializing DYDX Trading Bot...
+2025-09-27 02:22:16,292 - INFO - 📍 Bot address: dydx102tnprr...5rtrxczv
+2025-09-27 02:22:16,292 - INFO - ✅ DYDX client initialized successfully
+2025-09-27 02:22:16,292 - INFO - 📊 Monitoring: BTC, ETH, SOL, AVAX, LINK
+2025-09-27 02:22:16,292 - INFO - 🎯 Bot initialization completed!
+2025-09-27 02:22:16,292 - INFO - \n============================================================
+2025-09-27 02:22:16,292 - INFO - 🔍 STARTING MARKET ANALYSIS
+2025-09-27 02:22:16,292 - INFO - ============================================================
+2025-09-27 02:22:16,293 - INFO - \n💰 ACCOUNT STATUS
+2025-09-27 02:22:16,293 - INFO - ------------------------------
+2025-09-27 02:22:16,296 - INFO - 💵 Balance: $0.00 USDC
+2025-09-27 02:22:16,296 - INFO - 📊 Open Positions: 0
+2025-09-27 02:22:16,296 - INFO - \n📈 MARKET PRICES
+2025-09-27 02:22:16,297 - INFO - ------------------------------
+2025-09-27 02:22:16,297 - WARNING - ⚠️  BTC: Price unavailable
+2025-09-27 02:22:16,297 - WARNING - ⚠️  ETH: Price unavailable
+2025-09-27 02:22:16,297 - WARNING - ⚠️  SOL: Price unavailable
+2025-09-27 02:22:16,297 - WARNING - ⚠️  AVAX: Price unavailable
+2025-09-27 02:22:16,297 - WARNING - ⚠️  LINK: Price unavailable
+2025-09-27 02:22:16,297 - INFO - \n🎯 TRADING SIGNALS
+2025-09-27 02:22:16,297 - INFO - ------------------------------
+2025-09-27 02:22:16,297 - WARNING -   ❌ BTC COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:16,298 - WARNING -   ❌ ETH COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:16,298 - WARNING -   ❌ SOL COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:16,298 - WARNING -   ❌ AVAX COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:16,298 - WARNING -   ❌ LINK COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:16,298 - INFO - \n⚖️  RISK SUMMARY
+2025-09-27 02:22:16,298 - INFO - ------------------------------
+2025-09-27 02:22:16,298 - INFO - 🟢 No exposure - Cash position
+2025-09-27 02:22:16,298 - INFO - \n============================================================
+2025-09-27 02:22:16,298 - INFO - ✅ ANALYSIS COMPLETED
+2025-09-27 02:22:16,298 - INFO - ============================================================
+2025-09-27 02:22:16,299 - INFO - \n🎉 Bot execution completed successfully!
+2025-09-27 02:22:19,084 - INFO - ✅ DYDX v4 client imported successfully
+2025-09-27 02:22:19,084 - INFO - 🚀 Initializing DYDX Trading Bot...
+2025-09-27 02:22:19,085 - INFO - 📍 Bot address: dydx102tnprr...5rtrxczv
+2025-09-27 02:22:19,085 - INFO - ✅ DYDX client initialized successfully
+2025-09-27 02:22:19,085 - INFO - 📊 Monitoring: BTC, ETH, SOL, AVAX, LINK
+2025-09-27 02:22:19,085 - INFO - 🎯 Bot initialization completed!
+2025-09-27 02:22:19,085 - INFO - \n============================================================
+2025-09-27 02:22:19,085 - INFO - 🔍 STARTING MARKET ANALYSIS
+2025-09-27 02:22:19,085 - INFO - ============================================================
+2025-09-27 02:22:19,086 - INFO - \n💰 ACCOUNT STATUS
+2025-09-27 02:22:19,086 - INFO - ------------------------------
+2025-09-27 02:22:19,089 - INFO - 💵 Balance: $0.00 USDC
+2025-09-27 02:22:19,089 - INFO - 📊 Open Positions: 0
+2025-09-27 02:22:19,089 - INFO - \n📈 MARKET PRICES
+2025-09-27 02:22:19,089 - INFO - ------------------------------
+2025-09-27 02:22:19,089 - WARNING - ⚠️  BTC: Price unavailable
+2025-09-27 02:22:19,089 - WARNING - ⚠️  ETH: Price unavailable
+2025-09-27 02:22:19,089 - WARNING - ⚠️  SOL: Price unavailable
+2025-09-27 02:22:19,089 - WARNING - ⚠️  AVAX: Price unavailable
+2025-09-27 02:22:19,089 - WARNING - ⚠️  LINK: Price unavailable
+2025-09-27 02:22:19,090 - INFO - \n🎯 TRADING SIGNALS
+2025-09-27 02:22:19,090 - INFO - ------------------------------
+2025-09-27 02:22:19,090 - WARNING -   ❌ BTC COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:19,090 - WARNING -   ❌ ETH COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:19,090 - WARNING -   ❌ SOL COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:19,090 - WARNING -   ❌ AVAX COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:19,090 - WARNING -   ❌ LINK COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:19,090 - INFO - \n⚖️  RISK SUMMARY
+2025-09-27 02:22:19,090 - INFO - ------------------------------
+2025-09-27 02:22:19,090 - INFO - 🟢 No exposure - Cash position
+2025-09-27 02:22:19,090 - INFO - \n============================================================
+2025-09-27 02:22:19,091 - INFO - ✅ ANALYSIS COMPLETED
+2025-09-27 02:22:19,091 - INFO - ============================================================
+2025-09-27 02:22:19,091 - INFO - \n🎉 Bot execution completed successfully!
+2025-09-27 02:22:36,739 - INFO - ✅ DYDX v4 client imported successfully
+2025-09-27 02:22:36,741 - INFO - 🚀 Initializing DYDX Trading Bot...
+2025-09-27 02:22:36,741 - INFO - 📍 Bot address: dydx102tnprr...5rtrxczv
+2025-09-27 02:22:36,742 - INFO - ✅ DYDX client initialized successfully
+2025-09-27 02:22:36,742 - INFO - 📊 Monitoring: BTC, ETH, SOL, AVAX, LINK
+2025-09-27 02:22:36,742 - INFO - 🎯 Bot initialization completed!
+2025-09-27 02:22:36,742 - INFO - \n============================================================
+2025-09-27 02:22:36,742 - INFO - 🔍 STARTING MARKET ANALYSIS
+2025-09-27 02:22:36,742 - INFO - ============================================================
+2025-09-27 02:22:36,743 - INFO - \n💰 ACCOUNT STATUS
+2025-09-27 02:22:36,743 - INFO - ------------------------------
+2025-09-27 02:22:36,746 - INFO - 💵 Balance: $0.00 USDC
+2025-09-27 02:22:36,746 - INFO - 📊 Open Positions: 0
+2025-09-27 02:22:36,746 - INFO - \n📈 MARKET PRICES
+2025-09-27 02:22:36,746 - INFO - ------------------------------
+2025-09-27 02:22:36,747 - WARNING - ⚠️  BTC: Price unavailable
+2025-09-27 02:22:36,747 - WARNING - ⚠️  ETH: Price unavailable
+2025-09-27 02:22:36,747 - WARNING - ⚠️  SOL: Price unavailable
+2025-09-27 02:22:36,747 - WARNING - ⚠️  AVAX: Price unavailable
+2025-09-27 02:22:36,747 - WARNING - ⚠️  LINK: Price unavailable
+2025-09-27 02:22:36,747 - INFO - \n🎯 TRADING SIGNALS
+2025-09-27 02:22:36,747 - INFO - ------------------------------
+2025-09-27 02:22:36,747 - WARNING -   ❌ BTC COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:36,747 - WARNING -   ❌ ETH COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:36,747 - WARNING -   ❌ SOL COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:36,748 - WARNING -   ❌ AVAX COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:36,748 - WARNING -   ❌ LINK COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:36,748 - INFO - \n⚖️  RISK SUMMARY
+2025-09-27 02:22:36,748 - INFO - ------------------------------
+2025-09-27 02:22:36,748 - INFO - 🟢 No exposure - Cash position
+2025-09-27 02:22:36,748 - INFO - \n============================================================
+2025-09-27 02:22:36,748 - INFO - ✅ ANALYSIS COMPLETED
+2025-09-27 02:22:36,748 - INFO - ============================================================
+2025-09-27 02:22:36,748 - INFO - \n🎉 Bot execution completed successfully!
+2025-09-27 02:22:38,282 - INFO - ✅ DYDX v4 client imported successfully
+2025-09-27 02:22:38,283 - INFO - 🚀 Initializing DYDX Trading Bot...
+2025-09-27 02:22:38,283 - INFO - 📍 Bot address: dydx102tnprr...5rtrxczv
+2025-09-27 02:22:38,284 - INFO - ✅ DYDX client initialized successfully
+2025-09-27 02:22:38,284 - INFO - 📊 Monitoring: BTC, ETH, SOL, AVAX, LINK
+2025-09-27 02:22:38,284 - INFO - 🎯 Bot initialization completed!
+2025-09-27 02:22:38,284 - INFO - \n============================================================
+2025-09-27 02:22:38,284 - INFO - 🔍 STARTING MARKET ANALYSIS
+2025-09-27 02:22:38,285 - INFO - ============================================================
+2025-09-27 02:22:38,285 - INFO - \n💰 ACCOUNT STATUS
+2025-09-27 02:22:38,285 - INFO - ------------------------------
+2025-09-27 02:22:38,290 - INFO - 💵 Balance: $0.00 USDC
+2025-09-27 02:22:38,290 - INFO - 📊 Open Positions: 0
+2025-09-27 02:22:38,290 - INFO - \n📈 MARKET PRICES
+2025-09-27 02:22:38,290 - INFO - ------------------------------
+2025-09-27 02:22:38,290 - WARNING - ⚠️  BTC: Price unavailable
+2025-09-27 02:22:38,290 - WARNING - ⚠️  ETH: Price unavailable
+2025-09-27 02:22:38,291 - WARNING - ⚠️  SOL: Price unavailable
+2025-09-27 02:22:38,291 - WARNING - ⚠️  AVAX: Price unavailable
+2025-09-27 02:22:38,291 - WARNING - ⚠️  LINK: Price unavailable
+2025-09-27 02:22:38,291 - INFO - \n🎯 TRADING SIGNALS
+2025-09-27 02:22:38,291 - INFO - ------------------------------
+2025-09-27 02:22:38,291 - WARNING -   ❌ BTC COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:38,291 - WARNING -   ❌ ETH COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:38,292 - WARNING -   ❌ SOL COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:38,292 - WARNING -   ❌ AVAX COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:38,292 - WARNING -   ❌ LINK COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:38,292 - INFO - \n⚖️  RISK SUMMARY
+2025-09-27 02:22:38,292 - INFO - ------------------------------
+2025-09-27 02:22:38,292 - INFO - 🟢 No exposure - Cash position
+2025-09-27 02:22:38,292 - INFO - \n============================================================
+2025-09-27 02:22:38,293 - INFO - ✅ ANALYSIS COMPLETED
+2025-09-27 02:22:38,293 - INFO - ============================================================
+2025-09-27 02:22:38,293 - INFO - \n🎉 Bot execution completed successfully!
+2025-09-27 02:22:39,432 - INFO - ✅ DYDX v4 client imported successfully
+2025-09-27 02:22:39,433 - INFO - 🚀 Initializing DYDX Trading Bot...
+2025-09-27 02:22:39,433 - INFO - 📍 Bot address: dydx102tnprr...5rtrxczv
+2025-09-27 02:22:39,433 - INFO - ✅ DYDX client initialized successfully
+2025-09-27 02:22:39,433 - INFO - 📊 Monitoring: BTC, ETH, SOL, AVAX, LINK
+2025-09-27 02:22:39,433 - INFO - 🎯 Bot initialization completed!
+2025-09-27 02:22:39,433 - INFO - \n============================================================
+2025-09-27 02:22:39,433 - INFO - 🔍 STARTING MARKET ANALYSIS
+2025-09-27 02:22:39,433 - INFO - ============================================================
+2025-09-27 02:22:39,433 - INFO - \n💰 ACCOUNT STATUS
+2025-09-27 02:22:39,434 - INFO - ------------------------------
+2025-09-27 02:22:39,436 - INFO - 💵 Balance: $0.00 USDC
+2025-09-27 02:22:39,436 - INFO - 📊 Open Positions: 0
+2025-09-27 02:22:39,437 - INFO - \n📈 MARKET PRICES
+2025-09-27 02:22:39,437 - INFO - ------------------------------
+2025-09-27 02:22:39,437 - WARNING - ⚠️  BTC: Price unavailable
+2025-09-27 02:22:39,437 - WARNING - ⚠️  ETH: Price unavailable
+2025-09-27 02:22:39,437 - WARNING - ⚠️  SOL: Price unavailable
+2025-09-27 02:22:39,437 - WARNING - ⚠️  AVAX: Price unavailable
+2025-09-27 02:22:39,437 - WARNING - ⚠️  LINK: Price unavailable
+2025-09-27 02:22:39,437 - INFO - \n🎯 TRADING SIGNALS
+2025-09-27 02:22:39,438 - INFO - ------------------------------
+2025-09-27 02:22:39,438 - WARNING -   ❌ BTC COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:39,438 - WARNING -   ❌ ETH COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:39,438 - WARNING -   ❌ SOL COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:39,438 - WARNING -   ❌ AVAX COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:39,438 - WARNING -   ❌ LINK COMPRAR → Cannot execute (no price data)
+2025-09-27 02:22:39,438 - INFO - \n⚖️  RISK SUMMARY
+2025-09-27 02:22:39,438 - INFO - ------------------------------
+2025-09-27 02:22:39,439 - INFO - 🟢 No exposure - Cash position
+2025-09-27 02:22:39,439 - INFO - \n============================================================
+2025-09-27 02:22:39,439 - INFO - ✅ ANALYSIS COMPLETED
+2025-09-27 02:22:39,439 - INFO - ============================================================
+2025-09-27 02:22:39,439 - INFO - \n🎉 Bot execution completed successfully!
