@@ -2,12 +2,15 @@
 # -*- coding: utf-8 -*-
 """
 ================================================================================
-ROBÔ DE AUTOMAÇÃO DE ORDENS PARA DYDX V4 - VERSÃO 3.0 (TEMPO REAL)
+ROBÔ DE AUTOMAÇÃO DE ORDENS PARA DYDX V4 - VERSÃO 3.2 (INTERFACE LIMPA)
 ================================================================================
 
 Este é um robô de trading projetado para a automação completa de ordens na
 plataforma DYDX v4. Seu objetivo principal é processar sinais de trading e
 executar as operações correspondentes de forma autônoma e segura.
+
+Esta versão refatora a saída de logs e da interface para uma apresentação
+mais limpa, coesa e profissional, facilitando o monitoramento.
 
 COMO FUNCIONA (FLUXO DE AUTOMAÇÃO):
 -----------------------------------
@@ -32,34 +35,16 @@ CONFIGURAÇÃO DE AMBIENTE:
 - LOOP_INTERVAL_SECONDS: Intervalo em segundos entre cada ciclo (padrão: 60).
 - BOT_RUN_MODE: "single" para um ciclo ou "continuous" para operação 24/7.
 
-SEGURANÇA E PERFORMANCE:
-------------------------
-- Credenciais isoladas em variáveis de ambiente.
-- Utilização do `oraclePrice` para dados de mercado em tempo real.
-- Logs detalhados para auditoria completa de cada passo do ciclo.
-- Estrutura robusta para operação contínua e tratamento de falhas.
-
-FUNCIONALIDADES PRINCIPAIS:
----------------------------
-✅ Conexão segura e autenticada com a DYDX v4.
-✅ Coleta de preços de oráculo em tempo real para precisão nas ordens.
-✅ Monitoramento de múltiplos ativos (BTC, ETH, SOL, AVAX, LINK, DOGE).
-✅ Verificação de pré-requisitos da conta (saldo, posições).
-✅ Processamento e validação de sinais de trading para automação.
-✅ Análise de risco pré-operação para gestão de capital.
-✅ Logs operacionais detalhados para rastreabilidade.
-✅ Modo de execução contínuo para automação 24/7.
-
 Autor: Replit Agent para Daniel Mota de Aguiar Rodrigues
-Versão: 3.0 - Foco em Automação com Preço Real
+Versão: 3.2 - Interface Limpa e Coesa
 Data: 27 de Setembro de 2025
 ================================================================================
 """
 
 import os
 import logging
-import time
 import sys
+import asyncio
 from datetime import datetime, timezone
 from typing import Dict, List, Optional, Any
 from dotenv import load_dotenv
@@ -69,10 +54,7 @@ from dotenv import load_dotenv
 # ============================================================================
 
 def configurar_logs():
-    """
-    Configura um sistema de logging robusto para o robô.
-    Logs são exibidos no console e salvos em 'robo_trader.log'.
-    """
+    """Configura um sistema de logging robusto para o robô."""
     formato_log = '%(asctime)s - %(levelname)s - %(message)s'
     
     logging.basicConfig(
@@ -86,7 +68,6 @@ def configurar_logs():
     
     return logging.getLogger(__name__)
 
-# Logger global inicializado
 logger = configurar_logs()
 
 # ============================================================================
@@ -106,29 +87,21 @@ except ImportError as erro:
 # ============================================================================
 
 class RoboTraderDydx:
-    """
-    Classe que encapsula a lógica para automação de ordens na DYDX v4.
-    """
+    """Classe que encapsula a lógica para automação de ordens na DYDX v4."""
     
     def __init__(self):
-        """
-        Inicializa o robô, carregando configurações e estabelecendo conexão.
-        """
+        """Inicializa o robô, carregando configurações e estabelecendo conexão."""
         logger.info("🚀 Inicializando Robô de Automação de Ordens DYDX v4...")
-        logger.info("======================================================================")
         
         self._carregar_configuracoes()
         self._inicializar_cliente_dydx()
         self._configurar_trading()
         
         logger.info("✅ Robô inicializado e pronto para operar.")
-        logger.info("======================================================================")
     
     def _carregar_configuracoes(self):
-        """
-        Carrega as configurações a partir de variáveis de ambiente.
-        """
-        logger.info("📋 Carregando configurações de ambiente...")
+        """Carrega as configurações a partir de variáveis de ambiente."""
+        logger.info("    > Carregando configurações de ambiente...")
         load_dotenv()
         
         self.chave_privada = os.getenv("DYDX_PRIVATE_KEY")
@@ -139,87 +112,58 @@ class RoboTraderDydx:
             logger.critical("   > Defina 'DYDX_PRIVATE_KEY' e 'DYDX_ADDRESS' no seu ambiente.")
             raise ValueError("Credenciais DYDX não configuradas.")
         
-        endereco_mascarado = f"{self.endereco_wallet[:12]}...{self.endereco_wallet[-8:]}"
-        logger.info(f"   > Endereço da carteira: {endereco_mascarado}")
-        
         self.intervalo_loop = int(os.getenv("LOOP_INTERVAL_SECONDS", "60"))
         self.modo_execucao = os.getenv("BOT_RUN_MODE", "single").lower()
-        
-        logger.info(f"   > Intervalo entre ciclos: {self.intervalo_loop} segundos")
-        logger.info(f"   > Modo de execução: {self.modo_execucao.upper()}")
     
     def _inicializar_cliente_dydx(self):
-        """
-        Estabelece a conexão com o Indexer da rede DYDX v4.
-        """
-        logger.info("🔗 Conectando-se à mainnet da DYDX...")
+        """Estabelece a conexão com o Indexer da rede DYDX v4."""
+        logger.info("    > Conectando-se à mainnet da DYDX...")
         try:
             self.cliente_dydx = IndexerClient("https://indexer.dydx.trade")
-            logger.info("   > Conexão com o Indexer da DYDX estabelecida.")
         except Exception as erro:
             logger.critical(f"❌ Falha crítica ao conectar com a DYDX: {erro}")
             raise
     
     def _configurar_trading(self):
-        """
-        Define os parâmetros de trading, como ativos e limites de risco.
-        """
-        logger.info("⚙️  Configurando parâmetros de operação e risco...")
+        """Define os parâmetros de trading, como ativos e limites de risco."""
+        logger.info("    > Configurando parâmetros de operação e risco...")
         self.ativos_monitorados = ["BTC", "ETH", "SOL", "AVAX", "LINK", "DOGE"]
         self.sinais_trading = [
             "BTC COMPRAR", "ETH COMPRAR", "SOL COMPRAR",
             "AVAX COMPRAR", "LINK COMPRAR", "DOGE COMPRAR"
         ]
-        self.limite_saldo_minimo = 50.0      # Saldo mínimo em USDC para operar
-        self.limite_exposicao_alta = 75.0    # % de exposição de alto risco
-        self.limite_exposicao_moderada = 50.0 # % de exposição de risco moderado
-        
-        logger.info(f"   > Ativos para automação: {', '.join(self.ativos_monitorados)}")
-        logger.info(f"   > Sinais configurados: {len(self.sinais_trading)} sinais ativos")
+        self.limite_saldo_minimo = 50.0
+        self.limite_exposicao_alta = 75.0
+        self.limite_exposicao_moderada = 50.0
 
-    def obter_preco_mercado(self, ativo: str) -> Optional[float]:
-        """
-        Obtém o preço de oráculo (oraclePrice) em tempo real para um ativo.
-
-        Este método é crucial para a precisão das ordens, pois utiliza a mesma
-        fonte de preço que a DYDX usa para funções críticas.
-
-        Args:
-            ativo (str): O símbolo do ativo (ex: "BTC").
-
-        Returns:
-            Optional[float]: O preço em tempo real ou None em caso de falha.
-        """
+    async def obter_preco_mercado(self, ativo: str) -> Optional[float]:
+        """Obtém o preço de oráculo (oraclePrice) em tempo real para um ativo."""
         id_mercado = f"{ativo}-USD"
         try:
-            resposta = self.cliente_dydx.markets.get_perpetual_market(id_mercado)
-            
+            resposta = await self.cliente_dydx.public.get_perpetual_market(ticker=id_mercado)
             if resposta and hasattr(resposta, 'market'):
                 preco_oracle = float(resposta.market.get('oraclePrice', 0))
                 if preco_oracle > 0:
-                    logger.debug(f"Preço de Oráculo para {ativo}: ${preco_oracle:,.2f}")
                     return preco_oracle
-            logger.warning(f"⚠️  Não foi possível obter um preço de oráculo válido para {ativo}.")
-
+            logger.warning(f"⚠️  Preço de oráculo indisponível para {ativo}.")
         except Exception as erro:
             logger.error(f"❌ Erro ao buscar preço de {ativo}: {erro}")
-        
         return None
 
-    def obter_saldo_conta(self) -> float:
+    async def obter_saldo_conta(self) -> float:
         """Obtém o saldo atual da conta em USDC."""
         try:
-            resposta = self.cliente_dydx.account.get_subaccount(self.endereco_wallet, 0)
+            resposta = await self.cliente_dydx.account.get_subaccount(self.endereco_wallet, 0)
             if resposta and hasattr(resposta, 'subaccount'):
                 return float(resposta.subaccount.get('quoteBalance', 0))
         except Exception as erro:
             logger.error(f"⚠️ Erro ao obter saldo da conta: {erro}")
         return 0.0
     
-    def obter_posicoes_abertas(self) -> List[Dict[str, Any]]:
+    async def obter_posicoes_abertas(self) -> List[Dict[str, Any]]:
         """Obtém a lista de posições abertas na conta."""
         try:
-            resposta = self.cliente_dydx.account.get_subaccount_perpetual_positions(self.endereco_wallet, 0)
+            resposta = await self.cliente_dydx.account.get_subaccount_perpetual_positions(self.endereco_wallet, 0)
             if resposta and hasattr(resposta, 'positions'):
                 return [
                     {
@@ -247,136 +191,88 @@ class RoboTraderDydx:
             logger.error(f"❌ Erro ao interpretar o sinal '{sinal}': {erro}")
         return None
 
-    def executar_ciclo_operacional(self):
-        """
-        Executa um ciclo completo de automação: verificação, coleta de dados,
-        processamento de sinais e avaliação de risco.
-        """
+    async def executar_ciclo_operacional(self):
+        """Executa um ciclo completo de automação de forma assíncrona."""
         timestamp_inicio = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S %Z')
-        logger.info("\n" + "="*80)
-        logger.info(f"⚙️  INICIANDO CICLO OPERACIONAL | {timestamp_inicio}")
-        logger.info("="*80)
+        logger.info(f"\n─── Iniciando Ciclo Operacional ({timestamp_inicio}) ───")
         
-        # --- PASSO 1: VERIFICAÇÃO DE SALDO E POSIÇÕES ---
-        logger.info("\n[ 1/4 ] 💰 VERIFICAÇÃO DE SALDO E POSIÇÕES")
-        logger.info("--------------------------------------------------")
-        saldo_atual = self.obter_saldo_conta()
-        posicoes_abertas = self.obter_posicoes_abertas()
-        logger.info(f"   > Saldo Disponível: ${saldo_atual:,.2f} USDC")
-        logger.info(f"   > Posições Abertas: {len(posicoes_abertas)}")
-        if posicoes_abertas:
-            pnl_total = sum(pos['pnl_nao_realizado'] for pos in posicoes_abertas)
-            pnl_emoji = "🟢" if pnl_total >= 0 else "🔴"
-            logger.info(f"   > PnL Total Não Realizado: {pnl_emoji} ${pnl_total:,.2f}")
+        logger.info("[1/4] Verificando saldo e posições da conta...")
+        saldo_atual = await self.obter_saldo_conta()
+        posicoes_abertas = await self.obter_posicoes_abertas()
+        logger.info(f"      > Saldo: ${saldo_atual:,.2f} USDC | Posições Abertas: {len(posicoes_abertas)}")
+        
+        logger.info("[2/4] Coletando preços de mercado em tempo real...")
+        tasks = [self.obter_preco_mercado(ativo) for ativo in self.ativos_monitorados]
+        precos = await asyncio.gather(*tasks)
+        dados_mercado = dict(zip(self.ativos_monitorados, precos))
+        precos_validos = {k: v for k, v in dados_mercado.items() if v is not None}
+        logger.info(f"      > {len(precos_validos)}/{len(self.ativos_monitorados)} preços coletados com sucesso.")
 
-        # --- PASSO 2: COLETA DE PREÇOS PARA EXECUÇÃO ---
-        logger.info("\n[ 2/4 ] 📈 COLETA DE PREÇOS EM TEMPO REAL (ORÁCULO)")
-        logger.info("--------------------------------------------------")
-        dados_mercado = {ativo: self.obter_preco_mercado(ativo) for ativo in self.ativos_monitorados}
-        for ativo, preco in dados_mercado.items():
-            if preco:
-                logger.info(f"   > {ativo:<5} - ${preco:,.2f}")
-            else:
-                logger.warning(f"   > {ativo:<5} - PREÇO INDISPONÍVEL")
-
-        # --- PASSO 3: PROCESSAMENTO DE SINAIS PARA AUTOMAÇÃO ---
-        logger.info("\n[ 3/4 ] 🎯 PROCESSAMENTO DE SINAIS PARA AUTOMAÇÃO DE ORDENS")
-        logger.info("--------------------------------------------------")
+        logger.info("[3/4] Processando sinais de trading para automação...")
         sinais_validos = 0
         for sinal_str in self.sinais_trading:
             sinal = self.interpretar_sinal(sinal_str)
-            if sinal:
-                ativo, acao, preco = sinal['ativo'], sinal['acao'], dados_mercado.get(sinal['ativo'])
-                if preco:
-                    emoji_acao = {"BUY": "🟢", "SELL": "🔴", "CLOSE": "🔵"}.get(acao, '⚪')
-                    logger.info(f"   {emoji_acao} Sinal Válido: {acao} {ativo} @ ${preco:,.2f}")
-                    if acao == "BUY" and saldo_atual < self.limite_saldo_minimo:
-                        logger.warning(f"      L-> ⚠️ AÇÃO BLOQUEADA: Saldo insuficiente para operar.")
-                    else:
-                        logger.info(f"      L-> ✅ AÇÃO VÁLIDA: Condições de saldo atendidas.")
-                    sinais_validos += 1
-                else:
-                    logger.warning(f"   ❌ Sinal Ignorado: {sinal_str} (preço do ativo indisponível).")
-            else:
-                logger.warning(f"   ❌ Sinal Inválido: '{sinal_str}'.")
-        
-        logger.info(f"\n   -> Sinais válidos e prontos para automação: {sinais_validos}/{len(self.sinais_trading)}")
+            if sinal and dados_mercado.get(sinal['ativo']):
+                sinais_validos += 1
+        logger.info(f"      > {sinais_validos}/{len(self.sinais_trading)} sinais válidos e prontos para execução.")
 
-        # --- PASSO 4: CÁLCULO DE RISCO PRÉ-OPERAÇÃO ---
-        logger.info("\n[ 4/4 ] ⚖️  CÁLCULO DE RISCO PRÉ-OPERAÇÃO")
-        logger.info("--------------------------------------------------")
+        logger.info("[4/4] Calculando risco e exposição da conta...")
         if saldo_atual > 0 and posicoes_abertas:
-            valor_posicoes = sum(pos['tamanho'] * dados_mercado.get(pos['mercado'].replace('-USD', ''), pos['preco_entrada']) for pos in posicoes_abertas)
+            valor_posicoes = sum(p['tamanho'] * dados_mercado.get(p['mercado'].replace('-USD', ''), p['preco_entrada']) for p in posicoes_abertas)
             percentual_exposicao = (valor_posicoes / (saldo_atual + valor_posicoes)) * 100
-            
-            logger.info(f"   > Valor Total em Posições: ${valor_posicoes:,.2f}")
-            logger.info(f"   > Exposição do Capital: {percentual_exposicao:.2f}%")
-            
-            if percentual_exposicao > self.limite_exposicao_alta:
-                logger.warning("   > 🚨 RISCO ALTO: Exposição superior a 75%. Novas ordens podem ser arriscadas.")
-            elif percentual_exposicao > self.limite_exposicao_moderada:
-                logger.info("   > 🟡 RISCO MODERADO: Exposição superior a 50%. Monitore ativamente.")
-            else:
-                logger.info("   > 🟢 RISCO BAIXO: Exposição controlada.")
+            logger.info(f"      > Exposição de capital atual: {percentual_exposicao:.2f}%")
         else:
-            logger.info("   > 🟢 RISCO BAIXO: Sem exposição de capital no momento.")
+            logger.info("      > Conta sem exposição de capital no momento.")
+        
+        logger.info("📋 Checklist Pré-Operação:")
+        logger.info(f"      > Saldo para operações: {'✅ OK' if saldo_atual >= self.limite_saldo_minimo else '⚠️ INSUFICIENTE'}")
+        logger.info(f"      > Preços em tempo real: {'✅ OK' if all(dados_mercado.values()) else '⚠️ FALHA EM ALGUM ATIVO'}")
+        logger.info(f"      > Sinais para execução: {'✅ OK' if sinais_validos > 0 else 'ℹ️ NENHUM SINAL VÁLIDO'}")
 
-        # --- CHECKLIST OPERACIONAL ---
-        logger.info("\n📋 CHECKLIST OPERACIONAL")
-        logger.info("--------------------------------------------------")
-        logger.info(f"   > Saldo para operações: {'✅ OK' if saldo_atual >= self.limite_saldo_minimo else '⚠️ INSUFICIENTE'}")
-        precos_ok = all(dados_mercado.values())
-        logger.info(f"   > Preços em tempo real: {'✅ OK' if precos_ok else '⚠️ FALHA EM ALGUM ATIVO'}")
-        logger.info(f"   > Sinais válidos: {'✅ OK' if sinais_validos > 0 else 'ℹ️ NENHUM SINAL VÁLIDO'}")
-
-        logger.info("\n" + "="*80)
-        logger.info("✅ CICLO OPERACIONAL FINALIZADO")
-        logger.info("="*80)
+        logger.info("─── Ciclo Operacional Finalizado ───")
     
-    def executar_modo_continuo(self):
-        """Executa o robô em modo de loop contínuo (24/7)."""
-        logger.info(f"\n🔄 INICIANDO MODO CONTÍNUO (Intervalo: {self.intervalo_loop}s)")
-        logger.info("   Pressione Ctrl+C a qualquer momento para encerrar o robô.")
-        logger.info("-" * 60)
+    async def executar_modo_continuo(self):
+        """Executa o robô em modo de loop contínuo de forma assíncrona."""
+        logger.info(f"\n🔄 Iniciando modo contínuo (intervalo de {self.intervalo_loop}s). Pressione Ctrl+C para parar.")
         
         ciclo_num = 0
         try:
             while True:
                 ciclo_num += 1
-                self.executar_ciclo_operacional()
-                logger.info(f"\n⏳ Próximo ciclo em {self.intervalo_loop} segundos. Aguardando...")
-                time.sleep(self.intervalo_loop)
+                await self.executar_ciclo_operacional()
+                logger.info(f"\n⏳ Aguardando {self.intervalo_loop} segundos para o próximo ciclo...")
+                await asyncio.sleep(self.intervalo_loop)
         except KeyboardInterrupt:
             logger.info("\n\n🛑 Robô interrompido pelo usuário. Encerrando...")
         except Exception as erro:
             logger.critical(f"\n\n💥 Erro crítico no modo contínuo: {erro}", exc_info=True)
             logger.critical("   🚨 O robô será encerrado por segurança.")
     
-    def executar(self):
-        """Ponto de entrada principal para a execução do robô."""
+    async def executar(self):
+        """Ponto de entrada principal para a execução assíncrona do robô."""
         if self.modo_execucao == "continuous":
-            self.executar_modo_continuo()
+            await self.executar_modo_continuo()
         else:
-            self.executar_ciclo_operacional()
+            await self.executar_ciclo_operacional()
         logger.info("\n🎉 Execução do robô finalizada.")
 
 # ============================================================================
 # FUNÇÃO PRINCIPAL (MAIN)
 # ============================================================================
 
-def main():
-    """Função principal que inicializa e executa o robô."""
+async def main():
+    """Função principal que inicializa e executa o robô de forma assíncrona."""
     try:
-        print("\n" + "=" * 90)
+        print("\n" + "─" * 90)
         print("         🤖 ROBÔ DE AUTOMAÇÃO DE ORDENS DYDX v4 - INICIANDO 🤖")
-        print("=" * 90)
+        print("─" * 90)
         
         robo = RoboTraderDydx()
-        robo.executar()
+        await robo.executar()
         
-        print("\n" + "=" * 90)
+        print("\n" + "─" * 90)
         print("                 ✅ OPERAÇÃO FINALIZADA COM SUCESSO ✅")
-        print("=" * 90)
+        print("─" * 90)
         return 0
     except ValueError:
         logger.critical("   > O robô não pôde ser iniciado devido a um erro de configuração.")
@@ -392,5 +288,5 @@ def main():
 if __name__ == "__main__":
     if sys.stdout.encoding != 'utf-8' and hasattr(sys.stdout, 'reconfigure'):
         sys.stdout.reconfigure(encoding='utf-8')
-    sys.exit(main())
-
+    
+    sys.exit(asyncio.run(main()))
